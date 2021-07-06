@@ -27,9 +27,9 @@
   background-color: #14608d
 }
 .world-it::before {
-  content: "IT";
+  content: "useR!";
   color: #fff;
-  font-size: 1.75em;
+  font-size: 0.75em;
   position: absolute;
   top: -30px;
   left: -30px
@@ -553,7 +553,7 @@
 }
 .world-it3::after {
   content: "Data Eng";
-  color: #000;
+  color: #fff;
   position: absolute;
   top: 100px;
   left: 120px;
@@ -611,22 +611,22 @@
 }
 @keyframes vibrate-1 {
   0% {
-    transform: rotate(30deg) translate(0)
+    transform: rotate(10deg) translate(0)
   }
   20% {
     transform: rotate(28deg) translate(-4px,4px)
   }
   40% {
-    transform: rotate(30deg) translate(-4px,-4px)
+    transform: rotate(10deg) translate(-4px,-4px)
   }
   60% {
-    transform: rotate(32deg) translate(4px,4px)
+    transform: rotate(12deg) translate(4px,4px)
   }
   80% {
-    transform: rotate(30deg) translate(4px,-4px)
+    transform: rotate(10deg) translate(4px,-4px)
   }
   100% {
-    transform: rotate(30deg) translate(0)
+    transform: rotate(10deg) translate(0)
   }
 }
 .space-person {
