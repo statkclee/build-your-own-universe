@@ -90,8 +90,6 @@ knitr::opts_chunk$set(
 # }
 ```
 
----
-class: hide-count no-logo no-border bg-black
 
 ---
 class: hide-count no-logo no-border bg-black
@@ -170,6 +168,7 @@ class: hide-count no-logo no-border bg-black carina-nebula-soft fullscreen
 <div class="world world-bi world-bi-entrance" style="width: 160px; height: 160px; top: 10%; left: 60%;"></div>
 <div class="world-label world-label-bi white">
 후원금: &#8361; 10,000,000  <br> 
+<br> 
 &middot; useR! 컨퍼런스 발표 영상 로고 추가 <br> 
 &middot; 웹사이트 후원사 페이지 <br>
 &middot; 발표 전 30초 이내의 소개 영상 5회 노출 <br>
@@ -188,6 +187,7 @@ class: hide-count no-logo no-border bg-black carina-nebula-soft fullscreen
 <div class="world world-cdsc"></div>
 <div class="world-label world-label-cdsc white">
 후원금: &#8361; 5,000,000  <br> 
+<br> 
 &middot; useR! 컨퍼런스 발표 영상 로고 추가 <br> 
 &middot; 웹사이트 후원사 페이지 <br>
 &middot; 발표 전 30초 이내의 소개 영상 3회 노출 <br>
@@ -207,5 +207,6 @@ class: hide-count no-logo no-border bg-black carina-nebula-soft fullscreen
 <div class="world world-dqs"></div>
 <div class="world-label world-label-dqs white">
 후원금: &#8361; 3,000,000  <br> 
+<br> 
 &middot; useR! 컨퍼런스 발표 영상 로고 추가 <br> 
 &middot; 웹사이트 후원사 페이지 </div>
