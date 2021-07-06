@@ -29,10 +29,10 @@
 .world-it::before {
   content: "useR!";
   color: #fff;
-  font-size: 0.75em;
+  font-size: 2.75em;
   position: absolute;
-  top: -30px;
-  left: -30px
+  top: -100px;
+  left: -100px
 }
 .world-150 {
   width: 150px;
@@ -325,7 +325,7 @@
 }
 .world-label {
   position: absolute;
-  font-size: 1.5em
+  font-size: 1.0em
 }
 .world-label-entrance {
   opacity: 0;
@@ -334,7 +334,7 @@
 }
 .world-bi {
   background-color: #f0633c;
-  background-image: url(../figures/worlds/BI.png);
+  background-image: url(../figures/worlds/platinum-circle.png);
   background-repeat: no-repeat;
   width: 160px;
   height: 160px;
@@ -342,17 +342,17 @@
   left: 60%
 }
 .world-bi-entrance {
-  animation: world-bi-entrance 3s ease-in-out forwards
+  animation: world-bi-entrance .5s ease-in-out forwards
 }
 .world-label-bi {
-  top: 105px;
-  right: 205px;
-  width: 100px
+  top: 250px;
+  left: 750px;
+  width: 470px
 }
 #slide-world-bi .world-label-bi {
   opacity: 0;
   animation: blur-fade-in .5s linear forwards;
-  animation-delay: 3s
+  animation-delay: 1s
 }
 @keyframes world-bi-entrance {
   0% {
@@ -376,17 +376,17 @@
 }
 .world-cdsc {
   background-color: #14608d;
-  background-image: url(../figures/worlds/CDSC.png);
+  background-image: url(../figures/worlds/gold-circle.jpeg);
   background-repeat: no-repeat;
-  width: 140px;
-  height: 140px;
-  top: 45%;
-  right: 275px
+  width: 160px;
+  height: 160px;
+  top: 10%;
+  left: 60%
 }
 .world-label-cdsc {
-  bottom: 230px;
-  width: 190px;
-  right: 70px
+  top: 250px;
+  left: 750px;
+  width: 470px
 }
 #slide-world-cdsc .world-label-cdsc {
   opacity: 0;
@@ -419,17 +419,17 @@
 }
 .world-dqs {
   background-color: #fdcea0;
-  background-image: url(../figures/worlds/DQS.png);
+  background-image: url(../figures/worlds/silver-circle.png);
   background-repeat: no-repeat;
-  width: 120px;
-  height: 120px;
-  top: 75%;
-  left: 57%
+  width: 160px;
+  height: 160px;
+  top: 10%;
+  left: 60%
 }
 .world-label-dqs {
-  bottom: 58px;
-  width: 140px;
-  right: 245px
+  top: 250px;
+  left: 750px;
+  width: 470px
 }
 #slide-world-dqs .world-label-dqs {
   opacity: 0;
@@ -553,7 +553,7 @@
 }
 .world-it3::after {
   content: "Data Eng";
-  color: #fff;
+  color: #000;
   position: absolute;
   top: 100px;
   left: 120px;
@@ -611,22 +611,22 @@
 }
 @keyframes vibrate-1 {
   0% {
-    transform: rotate(10deg) translate(0)
+    transform: rotate(30deg) translate(0)
   }
   20% {
     transform: rotate(28deg) translate(-4px,4px)
   }
   40% {
-    transform: rotate(10deg) translate(-4px,-4px)
+    transform: rotate(30deg) translate(-4px,-4px)
   }
   60% {
-    transform: rotate(12deg) translate(4px,4px)
+    transform: rotate(32deg) translate(4px,4px)
   }
   80% {
-    transform: rotate(10deg) translate(4px,-4px)
+    transform: rotate(30deg) translate(4px,-4px)
   }
   100% {
-    transform: rotate(10deg) translate(0)
+    transform: rotate(30deg) translate(0)
   }
 }
 .space-person {
@@ -649,3 +649,4 @@
   top: 90px;
   animation: fadeIn .5s linear forwards
 }
+background[]배경,원경,바탕,눈에 띄지 않는 곳,이면복사
